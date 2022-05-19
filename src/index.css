@@ -1,4 +1,43 @@
-
 body {
-	background: #f5f5f5;
+    background: white;
+
+}
+
+h1 {
+    margin-top: 5%;
+    color: #6c69fb;
+}
+
+h2 {
+    margin-top: 5%;
+    color: #6c69fb;
+}
+
+.title-div {
+    display:flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.response-div {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-bottom: .5%;
+    background-color: #f5f5f5;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.response-div h3 {
+   color: #6c69fb;
+}
+
+#btn {
+    margin: 5%;
 }
