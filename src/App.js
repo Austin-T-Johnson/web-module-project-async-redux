@@ -1,16 +1,16 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import './index.css'
-import Form from './components/Form'
+
 
 import { connect } from 'react-redux'
 import * as actions from './state/action-creators'
 
 function App(props) {
 
- useEffect(() => {
-     props.getActivity()
- }, [])
+//  useEffect(() => {
+//      props.getActivity()
+//  }, [])
 
  
  
